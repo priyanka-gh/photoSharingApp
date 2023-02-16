@@ -13,7 +13,7 @@ const Sidebar = ({user, closeToggle}) => {
   }
   return(
     <div className="flex flex-col bg-gray h-full overflow-y-scrikk min-w-210 hide-scrollbar">
-      {user?" ":<a href="/login" className="flex justify-center mt-4 font-bold font-Poppins ">LOGIN</a>}
+      {user?" ":<a href="/signin" className="flex justify-center mt-4 font-bold font-Poppins ">LOGIN</a>}
       <div className="flex flex-col">
         <Link to="/"
           className="flex px-5 gap-2 my-6 pt-1 w-190 items-center"

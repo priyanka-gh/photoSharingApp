@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { Routes , Route} from 'react-router-dom'
-import {Navbar, Feed, PinDetails, CreatePin, Search} from '../components'
+import {Navbar, Feed, PinDetails, CreatePin, Search, UserProfile} from '../components'
 const Pins = ({user}) => {
   const [searchTerm,setSearchTerm] = useState('');
   return (

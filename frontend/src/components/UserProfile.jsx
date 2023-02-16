@@ -48,7 +48,7 @@ const UserProfile = () => {
     localStorage.clear();
     // window.google?.accounts.id.disableAutoSelect();
 
-    navigate('/login');
+    navigate('/signin');
   };
 
   if (!user) return <Spinner message="Loading profile" />;
